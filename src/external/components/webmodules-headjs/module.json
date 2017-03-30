@@ -1,9 +1,0 @@
-{
-	"name" : "webmodules/headjs",
-	"webmodules/headjs": {
-		"js": ["dist/1.0.0/head.min.js"]
-	}
-}
-
-
-

@@ -6,8 +6,6 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "webmodules-bootloader": "^0.1.19",
-    "webmodules-lazy": "^0.0.5",
     "jqgeeks-pitana.js": "^1.0.69"
   },
   "devDependencies": {}
