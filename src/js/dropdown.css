@@ -1,0 +1,122 @@
+body {
+    background-color: #9da0a4;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+.backdrop {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: black;
+    opacity: 0.5;
+}
+
+.modal-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.modal-box {
+    margin: auto;
+    width: 300px;
+    border: 1px solid #9da0a4;
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+.field-wrap:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.field-wrap button{
+    float: right;
+    border: none;
+    color: white;
+    padding: 6px;
+    margin: 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.field-wrap button.btn-ok{
+    background-color: #2b81af;
+}
+.field-wrap button.btn-cancel{
+    background-color: #9da0a4;
+}
+.btn-cancel {
+    cursor: pointer;
+}
+.pull-right {
+    float: right;
+}
+.field-wrap jq-dropdown{
+    margin: 5px;
+    display: block;
+}
+.field-wrap{
+    clear: both;
+    margin: 10px;
+    padding: 0px;
+}
+
+.clear {
+    clear: both;
+}
+jq-dropdown, jq-dropdown*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+jq-dropdown{
+    display: inline-block;
+    min-width: 100px;
+    position: relative;
+    color: #2f2f2f;
+    font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    height: 24px;
+    line-height: 24px;
+    width: 100%;
+
+}
+jq-dropdown input{
+    height: inherit;
+    line-height: inherit;
+    outline: none;
+    border: 0;
+    text-indent: 3px;
+    font-size: inherit;
+    border: 1px solid #c2ccd1;
+    width: inherit;
+
+}
+jq-dropdown options:empty{
+    display: none;
+}
+jq-dropdown options{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top:calc(100% - 1px);
+    border: 1px solid #c2ccd1;
+    background: #dfe7ea;
+    font-size: inherit;
+    z-index: 1;
+}
+jq-dropdown options option{
+    line-height: inherit;
+    border-bottom:1px solid #cccccc;
+}
+jq-dropdown options option:hover{
+    background: #cccccc;
+}
+jq-dropdown options option:nth-last-child(1){
+    border-bottom:1px solid transparent;
+}

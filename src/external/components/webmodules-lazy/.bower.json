@@ -1,0 +1,29 @@
+{
+  "name": "webmodules-lazy",
+  "version": "0.0.5",
+  "authors": [
+    "Lalit Tanwar <lalit.tanwar07@gmail.com>"
+  ],
+  "description": "lazy callbacks",
+  "main": "lazy.js",
+  "keywords": [
+    "promise",
+    "debounce",
+    "throttle"
+  ],
+  "dependencies": {
+    "webmodules-jquery": ">=1.8",
+    "webmodules-foo": ">=3.2.1"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/webmodule/lazy",
+  "_release": "0.0.5",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.5",
+    "commit": "18742e8f3b9d59978382814e823e0bf23ac2482a"
+  },
+  "_source": "https://github.com/webmodule/lazy.git",
+  "_target": "^0.0.5",
+  "_originalSource": "webmodules-lazy"
+}

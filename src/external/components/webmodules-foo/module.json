@@ -1,0 +1,22 @@
+{
+	"name": "webmodules/foo",
+	"webmodules/foo": {
+		"js": ["polyfills.js", "foo.js"]
+	},
+	"webmodules/foo/uri": {
+		"js": ["URI.js"],
+		"on": ["webmodules/foo"]
+	},
+	"webmodules/foo/define": {
+		"js" : ["define.js"],
+		"on": ["webmodules/foo/uri"]
+	},
+	"webmodules/foo/stacktrace": {
+		"js": ["stacktrace.js"],
+		"on": ["webmodules/foo"]
+	},
+  "webmodules/foo/log": {
+    "js": ["LOG.js"],
+    "on": ["webmodules/foo/stacktrace"]
+  }
+}

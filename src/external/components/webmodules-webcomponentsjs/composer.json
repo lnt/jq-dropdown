@@ -1,0 +1,10 @@
+{
+    "name": "webmodules/webcomponentsjs",
+    "type": "library",
+    "description": "A suite of polyfills supporting the HTML Web Components specs: http://webcomponents.org/polyfills/",
+    "keywords": ["rudra", "API"],
+    "license": "MIT",
+    
+    "require": {
+    }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "webmodules-jquery",
+  "version": "2.1.4",
+  "description": "jQuery bundle",
+  "keywords": [
+    "jquery",
+    "component"
+  ],
+  "main": "jquery.js",
+  "license": "MIT"
+}

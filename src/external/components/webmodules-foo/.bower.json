@@ -1,0 +1,35 @@
+{
+  "name": "webmodules-foo",
+  "main": "foo.js",
+  "description": "Module loader interface and polyfills",
+  "authors": [
+    "lalit.tanwar07@gmail.com"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/webmodule/foo.git"
+  },
+  "dependencies": {},
+  "keywords": [
+    "polyfils"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "homepage": "https://github.com/webmodule/foo",
+  "version": "3.2.6",
+  "_release": "3.2.6",
+  "_resolution": {
+    "type": "version",
+    "tag": "3.2.6",
+    "commit": "4a330e37cad9e8925963a1087697f1bdfdb545df"
+  },
+  "_source": "https://github.com/webmodule/foo.git",
+  "_target": ">=3.2.1",
+  "_originalSource": "webmodules-foo"
+}

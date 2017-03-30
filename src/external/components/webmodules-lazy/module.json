@@ -1,0 +1,7 @@
+{
+  "name" : "webmodules/lazy",
+  "webmodules/lazy" : {
+    "js" : ["lazy.js"],
+    "on" : ["webmodules/jquery"]
+  }
+}

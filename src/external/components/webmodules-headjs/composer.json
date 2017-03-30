@@ -1,0 +1,14 @@
+{
+	"name": "webmodules/headjs",
+	"type": "library",
+	"description": "HeadJS: Responsive Design, Feature Detections & Asset Loading. The only script in your <HEAD>",
+	"version": "1.0.3",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Tero Piirainen"
+		}, {
+			"name": "Robert Hoffmann"
+		}
+	]
+}

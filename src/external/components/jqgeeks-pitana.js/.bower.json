@@ -1,0 +1,32 @@
+{
+  "name": "jqgeeks-pitana.js",
+  "repo": "jqgeeks/pitana.js",
+  "version": "1.0.69",
+  "main": "dist/pitana.js",
+  "keywords": [
+    "scalable",
+    "framework",
+    "webcomponents"
+  ],
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "description": "pitana.js, framework for developing large scale modular JavaScript applications using Custom Elements",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pitana/pitana.js.git"
+  },
+  "dependencies": {
+    "webmodules-webcomponentsjs": ">=0.5.3"
+  },
+  "homepage": "https://github.com/jqgeeks/pitana.js",
+  "_release": "1.0.69",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.0.69",
+    "commit": "58d7ed35d49f3f1ff2c666ba7b654a8faf4b4cb6"
+  },
+  "_source": "https://github.com/jqgeeks/pitana.js.git",
+  "_target": "^1.0.69",
+  "_originalSource": "jqgeeks-pitana.js",
+  "_direct": true
+}

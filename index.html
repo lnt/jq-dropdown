@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My App</title>
+    <!-- libraries -->
+    <script src="./src/external/components/webmodules-webcomponentsjs/unified/webcomponents-lite.js"></script>
+    <script src="./src/external/components/jqgeeks-pitana.js/src/pitana.Klass.js"></script>
+    <script src="./src/external/components/jqgeeks-pitana.js/src/pitana.Base.js"></script>
+    <script src="./src/external/components/jqgeeks-pitana.js/src/pitana.util.js"></script>
+    <script src="./src/external/components/jqgeeks-pitana.js/src/pitana.settings.js"></script>
+    <script src="./src/external/components/jqgeeks-pitana.js/src/pitana.EventBus.js"></script>
+    <script src="./src/external/components/jqgeeks-pitana.js/src/pitana.domEvents.js"></script>
+    <script src="./src/external/components/jqgeeks-pitana.js/src/pitana.HTMLElement.js"></script>
+    <script src="./src/external/components/jqgeeks-pitana.js/src/pitana.ObjectMap.js"></script>
+    <script src="./src/external/components/jqgeeks-pitana.js/src/pitana.accessorType.js"></script>
+    <script src="./src/external/components/jqgeeks-pitana.js/src/pitana.registerElement.js"></script>
+    <!-- //libraries -->
+
+    <!-- project -->
+    <link rel="stylesheet" href="./src/js/dropdown.css"></link>
+    <script src="./src/js/dropdown.js"></script>
+    <!-- //project -->
+</head>
+<body>
+<div class="display-box">
+    <div>
+        <label>Team : </label> <span id="team_view"></span>
+    </div>
+    <div>
+        <label>Employee : </label> <span id="employee_view" ></span>
+    </div>
+    <button class="btn-update" onclick="modal(true)"> Update</button>
+</div>
+
+
+<div class="main-box" style="display: none">
+    <div class="backdrop"></div>
+    <div class="modal-wrapper">
+        <div class="modal-box">
+            <span class="btn-cancel pull-right">X</span>
+            <div class="field-wrap">
+                <label>
+                    <input type="checkbox">
+                    Send welcome email to employee
+                </label>
+            </div>
+            <div class="field-wrap">
+                <div>
+                    Select a Team in Organization
+                </div>
+                <jq-dropdown class="" id="team" api="teams" value="" text="" placeholder="Select Team">
+                </jq-dropdown>
+            </div>
+            <div class="field-wrap">
+                <div>
+                    Select an Employee
+                </div>
+                <jq-dropdown id="employee" api="employees" value="" text="" data-team="Executive"
+                             placeholder="Select Employee">
+                </jq-dropdown>
+            </div>
+            <div class="field-wrap">
+                <button class="btn-ok"> OK</button>
+                <button class="btn-cancel"> Cancel</button>
+            </div>
+        </span>
+    </div>
+</div>
+
+</body>
+<script src="./src/js/index.js"></script>
+</html>
